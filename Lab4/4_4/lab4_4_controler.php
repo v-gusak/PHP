@@ -22,9 +22,6 @@
                                 }
                             } else {
                                 if (!file_exists($login . ".txt")) {
-                                    // $fp = fopen($login . ".txt", "w");
-                                    // fwrite($fp, $password);
-                                    // fclose($fp);
                                     echo "<h1 class='text-success'>A new user named $login has been successfully created.</h1>";
 
                                     file_put_contents($login . ".txt", $password);
