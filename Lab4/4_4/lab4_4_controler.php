@@ -1,5 +1,5 @@
 <?php
-    if (isset($_POST['myActionName']) && $_POST['login'] != null && $_POST['password']) {
+    if (isset($_POST['myActionName']) && $_POST['login'] != null && $_POST['password'] != null) {
             echo "<br><br>
                 <div class='container text-center d-flex justify-content-center mt-5'>
                     <div class='row'>
