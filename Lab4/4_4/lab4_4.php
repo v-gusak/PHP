@@ -23,9 +23,9 @@
             </div>
         </div>
     </div>
-              <?php
-                  include $_SERVER["DOCUMENT_ROOT"]."/Lab4/4_4/lab4_4_controler.php";
-              ?>
-
+    
+    <?php
+         include $_SERVER["DOCUMENT_ROOT"]."/Lab4/4_4/lab4_4_controler.php";
+    ?>
 </body>
 </html>
